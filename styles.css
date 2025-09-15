@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Inter");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -32,12 +32,51 @@ body {
     background-color: var(--grey-800);
     padding: 20px;
     margin: 20px;
+    min-width: 327px;
+    border-radius: 12px;
 }
 
-
-
-.socials p{
+.socials h2{
     background-color: var(--grey-700);
     margin: 15px;
     padding: 10px;
+    color: var(--white);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.socials h2:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+img{
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 4px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 800;
+    color: var(--green);
+}
+
+p {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 24px 0;
+    font-weight: 400;
 }
