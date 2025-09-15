@@ -1,0 +1,16 @@
+@import url("https://fonts.google.com/specimen/Inter");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --white:    hsl(0, 0%, 100%);
+  }
